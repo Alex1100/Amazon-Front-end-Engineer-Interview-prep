@@ -2,7 +2,7 @@
 ## Critical rendering path:
 * Optimizing for performance is all about understanding what happens in these intermediate steps between receiving the HTML, CSS, and JavaScript bytes and the required processing to turn them into rendered pixels **that's the critical rendering path.**
 ## Service Workers:
-* A service worker is a script that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction. 
+* A service worker is a script that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction.
 * The core feature is the ability to intercept and handle network requests.
 * The reason this is such an exciting API is that it allows you to support offline experiences, giving developers complete control over the experience.
 * It's a JavaScript Worker, so it can't access the DOM directly.
@@ -33,7 +33,7 @@
 ## Lazy loading and bundle splitting:
 * Lazy, or "on demand", loading is a great way to optimize your site or application. This practice essentially involves splitting your code at logical breakpoints, and then loading it once the user has done something that requires, or will require, a new block of code. This speeds up the initial load of the application and lightens its overall weight as some blocks may never even be loaded.
 ## General implications of HTTP/2 and server-push:
-* HTTP/2 Server Push allows an HTTP/2-compliant server to send resources to a HTTP/2-compliant client before the client requests them. It is, for the most part, a performance technique that can be helpful in loading resources pre-emptively.
+* HTTP/2 Server Push allows an HTTP/2-compliant server to send resources to a HTTP/2-compliant client before the client requests them. It is, for the most part, a performance technique that can be helpful in loading resources preemptively.
 ## When to prefetch and preload resources:
 * Resource Prioritization – Getting the Browser to Help You
 ## Reduce browser reflows and to promote and element to the GPU(graphics processing unit):
@@ -46,7 +46,7 @@
 7. Update Elements in Batch
 8. Limit the affected elements
 9. Recognize that smoothness compromises performance
-10.Analyze repaint issues withbrowser tools
+10.Analyze repaint issues with browser tools
 
 ## Differences between the browser layout, compositing and painting:
 * **Layout:** Browser will determine how much space each element takes up and where to place it.
@@ -54,5 +54,3 @@
 * **Painting:** This is the process of filling in pixels. It involves drawing out elements.
 
 * **Compositing:** Browser draws element to the screen in the correct order so the page renders correctly.
-
-
